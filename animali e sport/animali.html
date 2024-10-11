@@ -5,14 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animali del bosco</title>
     <style>
-        div {
+        .contenitore-tutto {
             margin-left: 20%;
             margin-right: 20%;
             padding-top: 2%;
             padding-left: 5%;
+            padding-bottom: 2%;
             outline-color: green;
             outline-style: solid;
             outline-width: 12px;
+        }
+
+        .contenitore-foto {
+            padding-left: 5%;
+        }
+
+        .immagine-scoiattolo {
+            width: 43%;
+            height: auto;
+        }
+
+        .testo-immagine {
+            margin: 0;
+            padding: 0;
+        }
+
+        p {
+            font-size: large;
         }
 
     </style>
@@ -20,8 +39,23 @@
 <body>
     <h1>Animali del bosco</h1>
     
-    <div>
+    <div class="contenitore-tutto">
         <h1>LO SCOIATTOLO</h1>
+
+        <div class="contenitore-foto">
+            <img src="immagini/Scoiattolo-grigio.jpg" alt="immagine-scoiattolo" class="immagine-scoiattolo">
+            <p class="testo-immagine">Fig.1 - Scoiattolo</p>
+        </div>
+        <p>Lo <strong>scoiattolo</strong> è l'animale del bosco più noto e simpatico tra i roditori, appartenente
+            alla famiglia degli <em>Sciuridi</em>.<br/>
+            Non è aggressivo, ma non ama la compagnia di estranei, da cui fugge e si
+            nasconde molto bene.<br/>
+            Ha dimensioni medie. La sua lunghezza varia da 35-45 centimetri, di cui 15-20
+            centimetri di coda.<br/>
+            Pesa all'incirca da 230-450 g.<br/>
+            Ha un corpo agile, slanciato e abile nell'arrampicarsi sugli alberi.</p>
     </div>
+
+    
 </body>
 </html>
